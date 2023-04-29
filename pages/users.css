@@ -1,0 +1,73 @@
+/*: nao precisa utilizar o root nesta pagina, mas quero me lembrar os hexas
+
+root{
+    --proxBlack: #0c0c0c;
+    --NetRed: #E50914;
+}
+
+*/
+
+@font-face {
+  font-family: NetflixSans;
+  src: url("fonts/NetflixSans-Regular.otf");
+}
+
+* {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.lista {
+  position: absolute;
+  top: 15%;
+  left: 25%;
+  justify-content: center;
+  align-items: center;
+}
+
+.lista h1 {
+  font-size: 70px;
+  text-align: center;
+}
+
+.lista .perfil {
+  margin: 20px;
+  display: inline-block;
+}
+
+.lista .perfil img {
+  width: 150px;
+  border-radius: 5px;
+}
+
+.lista .perfil a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.lista .perfil h2 {
+  color: var(--grey);
+  text-align: center;
+  font-size: 15px;
+  font-family: NetflixSans;
+}
+
+
+.lista .gerenciar{
+    
+    float: center;
+    font-size: 20px;
+    width: 200px;
+    border: 1px solid var(--grey);
+    background-color: transparent;
+    font-family: NetflixSans;
+    text-align: center;
+    align-items: center;
+}
+
+.lista .gerenciar a{
+  color: var(--grey);
+  text-decoration: none;
+}
