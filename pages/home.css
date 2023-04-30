@@ -1,0 +1,91 @@
+header img{
+    background-color: transparent;
+    width: 100px;
+    margin: 10px;
+    left: 5%;
+    
+}
+
+ 
+header .container {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.359), transparent, rgba(0, 0, 0, 0.359));
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+header nav a{
+    background-color: transparent;
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+
+/*Filme Principal*/
+
+
+
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/bannerSabrina.jpg');
+    background-size: cover;
+    height: 665px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+
+.filme-principal .container{
+    margin: 150px;
+    width: 60%;
+    background-color: transparent;
+}
+
+.filme-principal .titulo{
+    background-color: transparent;
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: NetflixSans;
+}
+
+.filme-principal .descricao{
+    background-color: transparent;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.botoes{
+    background-color: transparent;
+}
+
+.botao {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 5px;
+    height: 50px;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
