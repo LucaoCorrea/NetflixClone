@@ -8,12 +8,20 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="../stylesGlobal.css">
     <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdn.es.gov.br/fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    
+   
     
 </head>
 <body>
+
+
+<!--HEADER BODY -->  
+
     <header>
         <div class="container">
-            <img src="../img/logo.png" alt="logo">
+            <a href="home.html"><img src="../img/logo.png" alt="logo"></a>
             <nav>
                 <a href="#">Início</a>
                 <a href="#">Séries</a>
@@ -25,19 +33,23 @@
         </div>
     </header>
 
+<!--FILME BODY -->  
+
+
     <div class="filme-principal">
+    
         <div class="container">
-            <h3 class="titulo">Mundo Sombrio da Sabrina</h3>
-            <p class="descricao">Sabrina Spellman luta com sua natureza dupla - metade bruxa, metade mortal <br>
-                 - enquanto se levanta contra as forças do mal que a ameaçam, sua família e o <br>
-                  mundo humano.</p>
+            <img src="../img/mundoSabrina.png" alt="" class="img-tittle">
+            <p class="descricao">Prestes a completar dezesseis anos, a jovem Sabrina Spellman  é obrigada a tomar  uma decisão <br>
+                 crucial que mudará sua vida para sempre. Ela deve escolher entre o mundo das bruxas e o mundo 
+                 <br> dos mortais, enquanto luta para proteger a família e os amigos de forças sombrias que os ameaçam.</p>
             <div class="botoes">
-                <button role="button" class="botao">
-                    <i class="fas fa-play"></i>
+                <button role="button" class="botao" id="botao-play">
+                    <i class="fa fa-play" class="fa-play" aria-hidden="true"></i>
                     ASSISTIR AGORA
                 </button>
-                <button role="button" class="botao">
-                    <i class="fas fa-info-circle"></i>
+                <button role="button" class="botao" id="botao-info">
+                    <i class="fa fa-info-circle" class="fa-info" style="font-size: 22px;"></i>
                     MAIS INFORMAÇÕES
                 </button>
             </div>

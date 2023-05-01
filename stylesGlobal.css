@@ -15,6 +15,10 @@
     background-color: var(--proxBlack);
     color: white;
     font-family: NetflixSans;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 body{
