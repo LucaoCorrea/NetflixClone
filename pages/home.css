@@ -11,28 +11,29 @@ header img{
 }
 
  
-header .container {
+header .menu-container {
+    margin: 0;
     padding: 0 4%;
-    background: linear-gradient(180deg,rgba(0,0,0,.7) 10%,transparent);
+    background: linear-gradient(rgba(0, 0, 0, 0.914), rgba(0, 0, 0, 0.914) 100%), url('../img/bannerSabrina.jpg');
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-header .container a{
+header .menu-container a{
     background-color: transparent;
 }
 
 
 
-header nav a{
+header .menu-container nav a{
     background-color: transparent;
     text-decoration: none;
     color: #fff;
     margin-right: 10px;
 }
 
-header nav a:hover{
+header .menu-container nav a:hover{
     color: #AAA;
 }
 
@@ -42,8 +43,9 @@ header nav a:hover{
 
 
 .filme-principal{
-    font-size: 16px;
+    margin: 0;
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/bannerSabrina.jpg');
+    font-size: 16px;
     background-size: cover;
     height: 660px;
     display: flex;
@@ -56,7 +58,11 @@ header nav a:hover{
 
 .filme-principal .container{
     margin: 100px;
-    width: 60%;
+    background-color: transparent;
+}
+
+
+.filme-principal .container .menu-container{
     background-color: transparent;
 }
 
